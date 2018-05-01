@@ -1,5 +1,5 @@
-FROM node:wheezy
-MAINTAINER Sergio Behrends <sergio@aerolab.co>
+FROM arm32v7/node:9-slim
+MAINTAINER alicek106
 
 # Create app directory
 RUN mkdir -p /usr/src/app
